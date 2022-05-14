@@ -1,0 +1,42 @@
+.sectionp {
+    width: $full;
+    min-height: 1250px;    
+    background-color: chocolate;
+    border: 2px solid rgb(49, 44, 44);
+    padding: 2rem;
+    
+    & p {
+        color: rgb(248, 255, 184);
+        
+    }
+}
+
+.card {
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    height: 370px;
+    text-align: center; 
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    transition: all 2s;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 20px 20px 0 0 rgba(10, 10, 10, 10);
+        font-size: large;
+        
+        & img{
+            transform: scale(1.2);
+            transition: all 2s;
+        }
+    }   
+    
+    &-img-top{
+        width: $full;
+        height: 250px;
+        object-fit: cover;
+        padding: 1rem;
+    }
+}

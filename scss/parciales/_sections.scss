@@ -1,0 +1,41 @@
+.sections {
+    width: $full;
+    min-height: 450px;
+    background-color: $color-fondo;
+    justify-content: space-evenly;
+
+    &__titulo {
+        padding-top: 5rem;
+    }
+
+    &__divv {
+        width: 320px;
+        height: 400px;
+        color: $color-parrafos;
+        border: 2px solid black;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        background-color: brown;
+        margin-left: 3rem;
+    }
+    
+    &__div {    
+        width: 300px;
+        height: 300px;
+        overflow-y: auto;
+        overflow-x: auto;
+        resize: both;      
+        padding: 10px;
+    }
+    
+    & iframe {
+        width: $full;
+        height: $full;
+    }
+    
+    & p {
+        margin: 0%;
+    }
+}
+

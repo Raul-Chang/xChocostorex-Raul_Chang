@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+ }
+ 
+ body {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+h1 {
+    color: $color-titulo;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    background-color: $color-fondo;
+    font-family: $fuente-titulo;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 2s;
+    }
+} 
+
+ input:focus{
+    background-color: aquamarine;
+}
+
+.container¨{
+    background-color: $color-fondo; 
+}

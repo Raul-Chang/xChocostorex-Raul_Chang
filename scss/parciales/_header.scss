@@ -1,0 +1,44 @@
+ .header {
+     position: fixed; 
+     height: 50px;
+     width: $full; 
+     z-index: 1100;
+
+    &__enlace {
+        height: 50px;
+        width: 120px;
+    }
+
+    &__logo {
+        width: $full;
+        height: $full;
+    }
+
+    &__logo:hover {
+        transform: scale(1.2);
+        transition: all 2s;
+    }
+ }
+ 
+ .nav {
+     padding-left: 2rem;
+     padding-right: 2rem;
+
+    &__lista {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &-item:hover {
+        background-color: green;
+        border-radius: 14px;
+    }
+    
+    &__enlace {
+        color: rgb(230, 233, 48);
+        font-size: larger;
+        font-weight: bold;         
+    }          
+ }  

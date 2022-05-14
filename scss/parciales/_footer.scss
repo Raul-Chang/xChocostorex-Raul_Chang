@@ -1,0 +1,44 @@
+.footer {    
+    color: $color-parrafos;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+    }
+    &__img {
+        width: 30%;
+        max-height: 50px;
+        padding-top: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        &:hover {
+            transition: all 3s;
+            transform: rotate(360deg);
+        }
+    }    
+    
+    &__imgx {
+        height: 60px;
+    }
+    
+    &__label {
+        color: $color-titulo;
+        padding-bottom: 8px;
+    }
+    
+    &__form-button {
+        width: 60px;
+    }
+    
+    &__p {
+        align-self: flex-end;
+        padding-bottom: 6px;
+    }
+}
+
+
+

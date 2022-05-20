@@ -37,10 +37,19 @@
         padding-left: 4rem;
         padding-top: 2rem;
         width: max-content;
+        margin-bottom: 2rem;
 
         & label {
             padding-bottom: 2rem;
         }  
-    }     
+    }
+    
+    &__btnL {
+        margin-right: 2rem;
+    }
+
+    & button {
+        width: 80px;
+    }
 }
 

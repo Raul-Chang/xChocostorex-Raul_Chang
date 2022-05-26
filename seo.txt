@@ -1,0 +1,8 @@
+
+    Cambios para el SEO:
+
+ - Agregue Descripcion y Keywords al meta de las páginas
+ - Incluí el mapa del sitio web en el archivo xml
+ - Cambio los textos lorem por textos relacionados con el tema del sitio web
+ - Cambie las @media de 600px a 727px para que no choquen las posiciones de 
+ los elementos en la version mobile(menor a 728px) y tablet(mayor o igual a 727px)

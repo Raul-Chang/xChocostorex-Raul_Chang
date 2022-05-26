@@ -1,7 +1,7 @@
 @media screen and (max-width: 1023px) { 
      
     .section {
-        height: 900px;
+        min-height: 1100px;
 
         & p {
             font-size: 26px;
@@ -63,14 +63,20 @@
     .footer {
         font-size: 12px;        
         & img {
-            height: 45px;        
+            height: 45px;
+
         } 
     }
+
+    &__imgx {
+        justify-content: map-get($scss, centro);
+
+} 
 
    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
    
     .nav__lista{
         display: none;
@@ -124,6 +130,7 @@
             align-self: center;
             overflow: hidden;
             margin-left: 0%;
+            margin-bottom: map-get($scss, pad);
         }
     }
 
@@ -176,8 +183,8 @@
     }    
 
     .footer {
-        justify-content: center;
-        align-items: center;
+        justify-content: map-get($scss, centro);
+        align-items: map-get($scss, centro);
 
         &__form {
             padding-top: 8px;    
@@ -187,16 +194,17 @@
             width: 80px !important;
             height: 50px;
             padding-top: 8px;
-            align-self: center;      
+            align-self: map-get($scss, centro);  
+
        }
        
        &__imgx {
-           text-align: center;  
-   } 
+        justify-content: map-get($scss, centro);
+} 
     
        &__p {
             order: 1;        
-            align-self: center;             
+            align-self: map-get($scss, centro);             
         }
     }
 

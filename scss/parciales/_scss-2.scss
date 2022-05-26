@@ -1,0 +1,14 @@
+@mixin flex-center ($flex-direction){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: center;
+    align-items: center;
+}
+
+$scss: (  
+  centro: center,  
+  pad : 2rem,
+  cero : 0
+);
+
+// Utilice 1 mixin, 1 extend (lo use con los animaciones) y 1 mapa usando los map-get

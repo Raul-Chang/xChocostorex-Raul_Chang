@@ -1,9 +1,10 @@
 .sectionc {
     width: $full;
-    height: 500px;
+    height: 100vh;
     background-color: $color-fondo;    
     color: $color-parrafos;    
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
+    
     
     &__titulo {
         padding-top: 5rem;

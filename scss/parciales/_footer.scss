@@ -1,11 +1,14 @@
 .footer {    
-    color: $color-parrafos;
+    color: $color-parrafos; 
+    position: absolute;
+    z-index: 1100;
+    bottom: 0;
+    max-height: fit-content;
+    background-color: $color-fondo;
+  
+
 
     &__form {
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // justify-content: center;
         @include flex-center(column);
         padding-left: map-get($scss, pad);
     }
@@ -18,8 +21,6 @@
         padding-right: 1rem;
 
         &:hover {
-            // transition: all 3s;
-            // transform: rotate(360deg);
             @extend h1:hover;
         }
     }    

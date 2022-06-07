@@ -1,7 +1,7 @@
 @media screen and (max-width: 1023px) { 
      
     .section {
-        min-height: 1100px;
+        padding-bottom: 12rem;
 
         & p {
             font-size: 26px;
@@ -31,18 +31,23 @@
 
     .sections {
         width: $full;
-        min-height: 900px;
+        padding-bottom: 9rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+
+        &__divv {
+            margin-top: 2rem;
+        }
     }
 
     .sectione__form {
          margin-left: 20%;
     }
     .sectionc{
-        height: min-content;
+        padding-bottom: 62rem;
+        height: 100vh;
 
         &__form {        
             padding: 2rem;
@@ -58,22 +63,18 @@
         }
     }
 
-
-
     .footer {
         font-size: 12px;        
         & img {
             height: 45px;
 
         } 
+        &__imgx {
+            justify-content: map-get($scss, centro);    
+        } 
     }
 
-    &__imgx {
-        justify-content: map-get($scss, centro);
-
-} 
-
-   
+       
 }
 
 @media screen and (max-width: 767px) {
@@ -89,6 +90,7 @@
 
     .section {
         height: fit-content;
+        padding-bottom: 12rem;
 
         &__titulo {
             font-size: 24px;
@@ -114,16 +116,29 @@
     .sectionp {
         width: $full;
         min-height: 3500px;
+        padding-bottom: 12rem;
 
         &__div {
             width: $full;        
         }
-    }    
+    }
+
+    .card-border {
+        justify-content: center;
+    }
+    
+    .card {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 5%;
+        margin-right: 0;        
+    }
 
     .sections {
         min-height: 1400px;
         display: flex;
         flex-direction: column;
+        padding-bottom: 12rem;
 
         &__divv {
             width: 300px;
@@ -134,8 +149,8 @@
         }
     }
 
-    .sectione {
-        min-height: fit-content;
+    .sectione {        
+        padding-bottom: 14rem;
 
         &__form {
             border: none;
@@ -167,7 +182,7 @@
     }       
 
     .sectionc {
-        height: 950px;
+        padding-bottom: 64rem;
         justify-content: space-around;
         align-content: space-around;
         font-size: 14px;
@@ -200,7 +215,8 @@
        
        &__imgx {
         justify-content: map-get($scss, centro);
-} 
+    }
+ 
     
        &__p {
             order: 1;        

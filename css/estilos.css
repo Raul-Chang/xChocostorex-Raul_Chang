@@ -257,6 +257,7 @@ input:focus {
   min-height: 100vh;
   background-color: chocolate;
   justify-content: space-evenly;
+  padding-bottom: 10rem;
 }
 
 .sections__titulo {
